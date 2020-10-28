@@ -74,15 +74,29 @@ body {
 .right-bar .dropdown-menu{
     position:absolute;
     margin-top: 5px;
-    width: 100px;
+    width: 120px;
     top: 100%;
     right: -15px;
     text-align: center;
-    background-color: grey;
     border-radius: 4px;
     padding: 5px 10px;
+    border: 1px solid white;
+    box-shadow: 0px 0px 10px grey;
 }
 
 .right-bar .dropdown-menu a {
     display: block;
+    margin-bottom: 10px;
+}
+
+.link-dropdown.new {
+    position: relative;
+}
+
+.dropdown-menu .link-dropdown.new::after{content: 'nuovo';
+    color:#eb008d;
+    font-weight: bold;
+    font-size: 8px;
+    position: absolute;
+    top: -5px;
 }

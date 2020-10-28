@@ -41,13 +41,12 @@ body {
 
 .left-bar {
     text-transform: uppercase;
-    flex-basis: 45%;
+    flex-basis: 49%;
 }
 
 .right-bar {
     text-transform: capitalize;
-    text-align: center;
-    flex-basis: 55%;  
+    flex-basis: 51%;  
 }
 
 .left-bar li,

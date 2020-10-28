@@ -15,18 +15,18 @@ body {
 /* Utilities */
 
 .button {
+    display: inline-block;
     background-color: #eb008e;
     padding: 10px 20px;
     border-radius: 100px;
-
-}
-
-.button .link-button {
     text-align: center;
     text-transform: none;
     color: white;
     font-weight: bold;
-    padding: 0;
+}
+
+.button .link-button {
+
 }
 
 /* Header | Navbar */

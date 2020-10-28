@@ -8,7 +8,7 @@ $(document).ready(function(){
 
     dropLink.click( function (){
 
-        var actualMenu = $(this).next(dropMenu);
+        var actualMenu = $(this).next('.dropdown-menu');
         dropMenu.not(actualMenu).hide();
         actualMenu.toggle();
         

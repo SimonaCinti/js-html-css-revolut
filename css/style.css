@@ -9,12 +9,13 @@ body {
     cursor: default;
     background-color: white;
     color: #a0a6ae;
+    font-size: 14px;
 }
 
 /* Header | Navbar */
 
 .navbar {
-    width: 960px;
+    width: 900px;
     margin: 50px auto;
     display: flex;
     justify-content: space-around;
@@ -23,19 +24,19 @@ body {
 
 .left-bar {
     text-transform: uppercase;
-    flex-grow: 40%;
+    flex-basis: 40%;
 }
 
 .right-bar {
     text-transform: capitalize;
-    flex-grow: 50%;  
+    flex-basis: 55%;  
 }
 
 .left-bar li,
 .right-bar li {
     list-style: none;
     display: inline-block;
-    padding-right: 10px;
+    padding-right: 5px;
 }
 
 .left-bar li a,
@@ -49,4 +50,5 @@ body {
     width: 100px;
     height: 30px;
     vertical-align: sub;
+    margin-right: 15px;
 }

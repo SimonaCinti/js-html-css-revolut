@@ -32,21 +32,24 @@ body {
 /* Header | Navbar */
 
 .navbar {
-    width: 900px;
     margin: 20px auto;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: baseline;
+}
+
+ul {
+   
 }
 
 .left-bar {
     text-transform: uppercase;
-    flex-basis: 49%;
+
 }
 
 .right-bar {
     text-transform: capitalize;
-    flex-basis: 51%;  
+ 
 }
 
 .left-bar li,

@@ -73,20 +73,24 @@ body {
 
 .right-bar .dropdown-menu{
     position:absolute;
-    margin-top: 5px;
-    width: 120px;
+    margin-top: 10px;
+    width: 115px;
     top: 100%;
-    right: -15px;
+    right: -20px;
     text-align: center;
     border-radius: 4px;
     padding: 5px 10px;
     border: 1px solid white;
-    box-shadow: 0px 0px 10px grey;
+    box-shadow: 0px 0px 4px rgba(128, 128, 128, 0.39);
 }
 
 .right-bar .dropdown-menu a {
     display: block;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.right-bar .dropdown-menu a:last-child {
+    margin-top: 40px;
 }
 
 .link-dropdown.new {

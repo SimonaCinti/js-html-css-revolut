@@ -46,6 +46,7 @@ body {
 
 .right-bar {
     text-transform: capitalize;
+    text-align: center;
     flex-basis: 55%;  
 }
 

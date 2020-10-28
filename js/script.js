@@ -7,7 +7,11 @@ $(document).ready(function(){
     // Show Hide Toggle Menu
 
     dropLink.click( function (){
-        $(this).next(dropMenu).toggle();
+
+        var actualMenu = $(this).next(dropMenu);
+        dropMenu.not(actualMenu).hide();
+        actualMenu.toggle();
+        
     });
 
 }); // <--- end doc ready

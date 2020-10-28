@@ -89,7 +89,7 @@ body {
     text-transform: none;
 }
 
-.right-bar .dropdown-menu a:last-child {
+.right-bar .dropdown-menu.azienda a:last-child {
     margin-top: 40px;
 }
 

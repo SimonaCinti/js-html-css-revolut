@@ -1,3 +1,40 @@
-body { 
-    background-color: red;
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    cursor: default;
+    background-color: white;
+    color: #a0a6ae;
+    margin: 40px auto;
+}
+
+/* Header | Navbar */
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.left-bar {
+    text-transform: uppercase;
+}
+
+.right-bar {
+    text-transform: capitalize;
+}
+
+.left-bar li,
+.right-bar li {
+    list-style: none;
+    display: inline-block;
+}
+
+.left-bar li a,
+.right-bar li a {
+    text-decoration: none;
+    color: #a0a6ae;
 }

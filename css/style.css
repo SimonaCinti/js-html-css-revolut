@@ -77,7 +77,6 @@ body {
     width: 115px;
     top: 100%;
     right: -20px;
-    text-align: center;
     border-radius: 4px;
     padding: 5px 10px;
     border: 1px solid white;
@@ -87,17 +86,27 @@ body {
 .right-bar .dropdown-menu a {
     display: block;
     margin-bottom: 20px;
+    text-transform: none;
 }
 
 .right-bar .dropdown-menu a:last-child {
     margin-top: 40px;
 }
 
-.link-dropdown.new {
+.link-dropdown.new ,
+.link-dropdown.beta{
     position: relative;
 }
 
 .dropdown-menu .link-dropdown.new::after{content: 'nuovo';
+    color:#eb008d;
+    font-weight: bold;
+    font-size: 8px;
+    position: absolute;
+    top: -5px;
+}
+
+.dropdown-menu .link-dropdown.beta::after{content: 'beta';
     color:#eb008d;
     font-weight: bold;
     font-size: 8px;

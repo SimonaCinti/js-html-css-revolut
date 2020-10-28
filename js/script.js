@@ -7,7 +7,7 @@ $(document).ready(function(){
     // Show Hide Toggle Menu
 
     dropLink.click( function (){
-        $(this).next('.dropdown-menu').toggle();
+        $(this).next(dropMenu).toggle();
     });
 
 }); // <--- end doc ready

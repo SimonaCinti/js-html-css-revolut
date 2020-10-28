@@ -34,10 +34,6 @@ body {
     align-items: baseline;
 }
 
-ul {
-   
-}
-
 .left-bar {
     text-transform: uppercase;
 
@@ -67,4 +63,26 @@ ul {
     height: 30px;
     vertical-align: sub;
     margin-right: 15px;
+}
+
+/* Header | Navbar | dropdown menu */
+
+.right-bar li.with-dropdown{
+    position: relative;
+}
+
+.right-bar .dropdown-menu{
+    position:absolute;
+    margin-top: 5px;
+    width: 100px;
+    top: 100%;
+    right: -15px;
+    text-align: center;
+    background-color: grey;
+    border-radius: 4px;
+    padding: 5px 10px;
+}
+
+.right-bar .dropdown-menu a {
+    display: block;
 }

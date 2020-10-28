@@ -58,6 +58,15 @@ body {
     padding-right: 10px;
 }
 
+.left-bar li a:hover,
+.right-bar li a:hover,
+.left-bar li a:focus,
+.right-bar li a:focus{
+    color: black;
+}
+
+
+
 .left-bar li img{
     width: 100px;
     height: 30px;
@@ -86,8 +95,10 @@ body {
 
 .right-bar .dropdown-menu a {
     display: block;
-    margin-bottom: 20px;
     text-transform: none;
+}
+.right-bar .dropdown-menu a:not(:last-child){
+margin-bottom: 20px;
 }
 
 .right-bar .dropdown-menu.azienda a:last-child {

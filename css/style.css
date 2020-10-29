@@ -31,16 +31,19 @@ body {
     margin: 20px auto;
     display: flex;
     justify-content: space-around;
-    align-items: baseline;
 }
 
 .left-bar {
     text-transform: uppercase;
+    display: flex;
+    align-items: center;
 
 }
 
 .right-bar {
     text-transform: capitalize;
+    display: flex;
+    align-items: center;
  
 }
 
@@ -70,7 +73,6 @@ body {
 .left-bar li img{
     width: 100px;
     height: 30px;
-    vertical-align: sub;
     margin-right: 15px;
 }
 

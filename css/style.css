@@ -19,10 +19,18 @@ body {
     background-color: #eb008e;
     padding: 10px 20px;
     border-radius: 100px;
+    border: 1px solid #eb008e;
     text-align: center;
     text-transform: none;
     color: white;
     font-weight: bold;
+    transition: all .6s ease-in-out;
+}
+
+.button:hover{
+    background-color: white;
+    color: #eb008e;
+    transform: scale(1.2);
 }
 
 /* Header | Navbar */

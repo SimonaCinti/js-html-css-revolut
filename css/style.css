@@ -70,12 +70,15 @@ body {
 }
 
 .left-bar li a:hover,
-.right-bar li a:hover,
-.left-bar li a:focus,
-.right-bar li a:focus{
+.right-bar li a:hover{
     color: black;
 }
 
+.left-bar li a:focus,
+.right-bar li:not(.with-dropdown) > a:focus,
+.right-bar .dropdown-menu a:focus{
+    color: black;
+}
 
 
 .left-bar li img{
